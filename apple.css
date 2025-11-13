@@ -202,7 +202,7 @@ svg {
     background-image: url('hero_ipad_pro_announce__v858qt6nn4im_medium.jpg');
 }
 
-/* 📱 ریسپانسیو */
+/* 📱 ریسپانسیو برای گوشی*/
 @media (max-width: 768px) {
     .apple-grid {
         grid-template-columns: 1fr;
