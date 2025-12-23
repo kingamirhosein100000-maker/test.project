@@ -336,3 +336,89 @@ footer {
 .legal-section p {
     margin: 12px 0;
 }
+@media (max-width: 480px) {
+
+    .items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item1 {
+        font-size: 11px;
+        margin: 6px;
+    }
+
+    .info-mac-header {
+        top: 5%;
+        padding: 0 10px;
+    }
+
+    .info-mac-header h1 {
+        font-size: 24px;
+    }
+
+    .info-mac-header h3 {
+        font-size: 14px;
+    }
+
+    .info-mac-header h4 {
+        font-size: 12px;
+    }
+
+    .btn-header-mac {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-fill-header,
+    .btn-strok-header {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .apple-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .apple-box {
+        height: 60vh;
+    }
+
+    .apple-content {
+        margin-top: 0;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .items {
+        flex-wrap: wrap;
+    }
+
+    .info-mac-header h1 {
+        font-size: 32px;
+    }
+
+    .info-mac-header h3 {
+        font-size: 16px;
+    }
+
+    .btn-fill-header,
+    .btn-strok-header {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .apple-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .apple-box {
+        height: 55vh;
+    }
+}
+
